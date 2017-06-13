@@ -27,7 +27,6 @@ from itertools import chain, islice
 from requests.exceptions import ConnectionError
 from pyroute2 import IPRoute
 from socket import AF_INET
-from nsenter import Namespace
 from base import *
 from exabgp import ExaBGP, ExaBGP_MRTParse
 from gobgp import GoBGP, GoBGPTarget
